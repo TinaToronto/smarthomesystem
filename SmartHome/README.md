@@ -1,18 +1,6 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Write a smart home appliance control system. The system should be able to control various home appliances such as a Light, Fan, and Air Conditioner. Each appliance has its own unique way of being turned on and off.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Light: The light can be turned off by toggling a switch to the "off" position.
+Fan: The fan can be turned off by reducing its speed to zero. 0 = off, 1, and 2.
+Air Conditioner: The air conditioner can be turned off by setting the thermostat to the "off" mode. The system will also be updated once a year automatically on January 1st 1:00am local time. The system will turn off all devices for the update. No other actions.
